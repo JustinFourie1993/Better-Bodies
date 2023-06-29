@@ -8,6 +8,7 @@ header {
     color: #fafafa;
     height: 150px;
     margin: 0;
+    border-radius: 5px;
 
 }
 
@@ -19,6 +20,14 @@ a {
     font-size: 20px;
     padding: 0px 15px 0px 15px;
 
+}
+
+header a:hover {
+    color: brown;
+}
+
+.active {
+    text-decoration: underline;
 }
 
 header nav {
