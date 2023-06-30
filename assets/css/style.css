@@ -4,7 +4,7 @@ body {
 
 header {
     width: 100%;
-    background-color: #5F6A6A;
+    background-color: black;
     color: #fafafa;
     height: 150px;
     margin: 0;
@@ -23,7 +23,7 @@ a {
 }
 
 header a:hover {
-    color: brown;
+    color: yellow;
 }
 
 .active {
@@ -42,4 +42,77 @@ h1 {
     text-align: center;
     padding-top: 15px;
     margin: 0;
+}
+
+#challenge {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+#gym-classes {
+    height: 600px
+}
+
+#crossfit {
+    background: url(../images/crossfit.webp) no-repeat center center;
+    float: left;
+    background-color: blue;
+}
+
+#yoga {
+    background: url(../images/yoga.webp) no-repeat center center;
+    float: right;
+    background-color: green;
+}
+
+#powerlifting {
+    float: right;
+    background: url(../images/crossfit.webp) no-repeat center center;
+    background-color: red;
+
+}
+
+#aerobics {
+    float: left;
+    background: url(../images/aerobics.webp) no-repeat center center;
+    background-color: orange;
+}
+
+#recovery {
+
+    background-color: yellow;
+    width: 100%;
+
+    height: 300px;
+    text-align: center;
+    line-height: 100px;
+
+
+}
+
+#gym-classes>div {
+    height: 300px;
+    text-align: center;
+
+    width: 50%;
+    color: #fafafa;
+    box-sizing: border-box;
+
+
+}
+
+.black-box {
+    background-color: black;
+    width: 25%;
+    height: 25%%;
+    margin: auto;
+    
+
+
+
+
 }
