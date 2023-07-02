@@ -13,56 +13,39 @@
     <header>
         <h1><i class="fa-solid fa-dumbbell"></i> Better Bodies <i class="fa-solid fa-dumbbell"></i></h1>
         <nav>
-            <a href="/index.html" class="active">Home <i class="fa-solid fa-house"></i></a>
+            <a href="/index.html">Home <i class="fa-solid fa-house"></i></a>
 
             <a href="">Classes <i class="fa-solid fa-table-list"></i></a>
-            <a href="/form.html">Sign Up <i class="fa-solid fa-pencil"></i></a>
+            <a href="/form.html" class="active">Sign Up <i class="fa-solid fa-pencil"></i></a>
 
         </nav>
     </header>
-    <div id="challenge">
-        <h2>Challenge Yourself !</h2>
-    </div>
-    <section id="gym-classes">
-        <div id="crossfit">
-            <div class="black-box">
-                <h3>Crossfit</h3>
-                <p>Do you want be Fit?</p>
-            </div>
-        </div>
+    <section class="form-section">
+        <form method="POST" action="" class="signup-form">
+            <h2>Choose Your Classes!</h2>
 
-        <div id="yoga">
-            <div class="black-box">
-                <h3>Yoga</h3>
-                <p>Do you want to be Flexible?</p>
-            </div>
-        </div>
-        <div id="powerlifting">
-            <div class="black-box">
-                <h3>Powerlifting</h3>
-                <p>Dou want to be Strong?</p>
-            </div>
-        </div>
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" class="text-input" required>
+            <br>
+            <label for="lname">Last Name</label>
+            <input id="lname" name="last_name" type="text" class="text-input" required>
+            <br>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" class="text-input" required>
+            <br>
+            <label for="c-fit">Crossfit</label>
+            <input type="radio" id="c-fit" name="crossfit" value="crossfit" required>
+            <label for="a-robics">Aerobics</label>
+            <input type="radio" id="a-robics" name="aerobics" value="aerobics" required>
+            <label for="p-lifting">Powerlifting</label>
+            <input type="radio" id="p-lifting" name="powerlifting" value="powerlifting" required>
+            <label for="y-oga">Yoga</label>
+            <input type="radio" id="y-oga" name="yoga" value="yoga" required>
 
-        <div id="aerobics">
-            <div class="black-box">
-                <h3>Aerobics</h3>
-                <p>Do you want to get Lean?</p>
-            </div>
-        </div>
+            <input class="join-button" type="submit" value="Apply!">
+        </form>
     </section>
-    <section>
-        <div id="recovery">
-            <div class="black-box">
-                <h3>Recovery</h3>
-                <p>Relax and recharge in the sauna after your workout.</p>
-            </div>
-        </div>
-    </section>
-    <div id="come-train">
-        <h2>Come Train With Us</h2>
-    </div>
-    <div>Times</div>
+
 
     <footer>
         <h3>Contacts</h3>
