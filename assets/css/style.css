@@ -2,6 +2,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* header */
+
 header {
     width: 100%;
     background-color: black;
@@ -18,12 +20,12 @@ a {
     color: #fafafa;
     text-decoration: none;
     font-size: 20px;
-    padding: 0px 15px 0px 15px;
+    padding: 0px 10px 0px 10px;
 
 }
 
 header a:hover {
-    color: yellow;
+    color: #cfb53b;
 }
 
 .active {
@@ -48,6 +50,8 @@ h1 {
     width: 100%;
     text-align: center;
 }
+
+/* classes */
 
 #gym-classes {
     height: 600px
@@ -112,6 +116,8 @@ h1 {
     text-align: center;
 }
 
+/* footer */
+
 footer {
     width: 100%;
     background-color: black;
@@ -137,8 +143,10 @@ footer a {
 }
 
 footer a:hover {
-    color: yellow;
+    color: #cfb53b;
 }
+
+/* form */
 
 .form-section {
     clear: left;
@@ -156,6 +164,7 @@ footer a:hover {
     position: absolute;
     left: 10%;
     padding: 30px;
+
 }
 
 .text-input {
@@ -166,4 +175,39 @@ footer a:hover {
     margin: 5px 0 20px;
     border: 1px solid #fafafa;
     border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #cfb53b
+}
+
+.join-button {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 150%;
+    background-color: #cfb53b;
+    border: 1px solid #fafafa;
+    color: #fafafa;
+    border-radius: 2px;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #cfb53b;
+}
+
+/* mediia queries */
+
+@media screen and (max-width: 600px) {
+    header .fa-dumbbell {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 407px) {
+    header {
+        height: 200px;
+    }
 }
