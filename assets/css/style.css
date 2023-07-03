@@ -11,18 +11,13 @@ header {
     color: #fafafa;
     height: 150px;
     margin: 0;
-
-
 }
 
-header a {}
-
-a {
+header a {
     color: #fafafa;
     text-decoration: none;
     font-size: 20px;
     padding: 0px 10px 0px 10px;
-
 }
 
 header a:hover {
@@ -36,8 +31,6 @@ header a:hover {
 header nav {
     text-align: center;
     padding-top: 20px;
-
-
 }
 
 h1 {
@@ -47,6 +40,52 @@ h1 {
     margin: 0;
 }
 
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 150px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+footer>p {
+    padding: 2px;
+    margin: 0px;
+}
+
+footer h3 {
+    margin: 0;
+    padding-top: 2px;
+    text-decoration: underline;
+}
+
+footer a {
+    font-size: 24px;
+    color: #fafafa;
+    margin-left: 15px;
+}
+
+footer a:hover {
+    color: #cfb53b;
+}
+
+/* index.html */
+
+#main-background {
+    width: 100%;
+    height: 800px;
+    background: url(/assets/images/main-wall.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* classes.html */
+
 #challenge {
     width: 100%;
     text-align: center;
@@ -54,8 +93,6 @@ h1 {
 }
 
 /* classes */
-
-
 
 #gym-classes>div {
     height: 300px;
@@ -66,7 +103,6 @@ h1 {
     padding-top: 50px;
     border-radius: 5px;
     background-size: cover;
-
 }
 
 .black-box {
@@ -107,7 +143,6 @@ h1 {
     margin-left: 5%;
 }
 
-
 #recovery {
     background: url(../images/sauana.jpeg) no-repeat center center;
     background-color: black;
@@ -122,38 +157,34 @@ h1 {
     background-size: cover;
 }
 
-/* footer */
+/* times */
 
-footer {
-    width: 100%;
-    background-color: black;
-    color: #fafafa;
-    height: 150px;
+#class-times {
     text-align: center;
-
-    position: fixed;
-    bottom: 0;
-
-}
-
-footer>p {
-    padding: 2px;
-    margin: 0px;
-}
-
-footer h3 {
-    margin: 0;
-    padding-top: 2px;
     text-decoration: underline;
 }
 
-footer a {
-    font-size: 24px;
+#times {
+
+    width: 100%;
+    padding-bottom: 400px;
 }
 
-footer a:hover {
-    color: #cfb53b;
+#times div {
+    background: url(/assets/images/wall.jpeg);
+    color: white;
+    width: 25%;
+    height: 200px;
+    float: left;
+    padding: 30px 0 0 20px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-position: center;
 }
+
+/* form.html */
 
 /* form */
 
@@ -174,7 +205,6 @@ footer a:hover {
     position: absolute;
     left: 10%;
     padding: 30px;
-
 }
 
 .text-input {
@@ -206,37 +236,6 @@ footer a:hover {
     color: #cfb53b;
 }
 
-/* times */
-
-#class-times {
-    text-align: center;
-    text-decoration: underline;
-}
-
-#times {
-
-    width: 100%;
-
-    padding-bottom: 400px;
-
-}
-
-#times div {
-    background: url(/assets/images/wall.jpeg);
-    color: white;
-    width: 25%;
-    height: 200px;
-    float: left;
-    padding: 30px 0 0 20px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-    border-radius: 5px;
-    background-position: center;
-}
-
-
-
 /* mediia queries */
 
 @media screen and (max-width: 600px) {
@@ -247,8 +246,6 @@ footer a:hover {
     .black-box {
         width: 60%;
     }
-
-
 }
 
 @media screen and (max-width: 407px) {
