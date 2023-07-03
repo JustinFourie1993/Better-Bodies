@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(207, 181, 59, 0.1);
 }
 
 /* header */
@@ -116,6 +117,10 @@ h1 {
     text-align: center;
 }
 
+#times {
+    padding-bottom: 150px;
+}
+
 /* footer */
 
 footer {
@@ -198,6 +203,28 @@ footer a:hover {
     background-color: #fafafa;
     color: #cfb53b;
 }
+
+/* times */
+
+#times {
+    width: 100%;
+    padding-bottom: 400px;
+
+}
+
+#times div {
+    color: white;
+    background: url(/assets/images/wall.jpeg);
+    width: 25%;
+    height: 200px;
+    float: left;
+    padding: 30px 0 0 20px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+
 
 /* mediia queries */
 
