@@ -5,6 +5,10 @@ body {
 
 /* header */
 
+.front-page {
+    border: 2px solid white;
+}
+
 header {
     width: 100%;
     background-color: black;
@@ -43,13 +47,15 @@ h1 {
 /* footer */
 
 footer {
-    width: 100%;
+    width: 99.15%;
     background-color: black;
     color: white;
     height: 150px;
     text-align: center;
     position: fixed;
     bottom: 0;
+
+
 }
 
 footer>p {
@@ -77,11 +83,31 @@ footer a:hover {
 
 #main-background {
     width: 100%;
-    height: 800px;
-    background: url(/assets/images/main-wall.jpeg);
+    height: 700px;
+    background: url(/assets/images/main\ back.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    image-rendering: crisp-edges;
+    margin-left: 2px;
+}
+
+#main-text {
+    color: #fafafa;
+    margin: 0;
+    padding-left: 30%;
+    padding-top: 10%;
+
+}
+
+#main-text h2 {
+    font-size: 300%;
+    margin: 0;
+}
+
+#main-text p {
+    font-size: 140%;
+    margin: 0;
 }
 
 /* classes.html */
@@ -146,7 +172,7 @@ footer a:hover {
 #recovery {
     background: url(../images/sauana.jpeg) no-repeat center center;
     background-color: black;
-    width: 50%;
+    width: 60%;
     color: #fafafa;
     height: 300px;
     margin: auto;
@@ -245,6 +271,11 @@ footer a:hover {
 
     .black-box {
         width: 60%;
+    }
+
+    #main-text {
+        margin: 0 auto;
+        padding: 20%
     }
 }
 
