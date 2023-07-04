@@ -83,7 +83,7 @@ footer a:hover {
 #main-background {
     width: 100%;
     height: 700px;
-    background: url(/assets/images/main\ back.jpeg);
+    background: url(assets/images/main\ back.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,14 +140,14 @@ footer a:hover {
 }
 
 #crossfit {
-    background: url(../images/crossfit.webp) no-repeat center center;
+    background: url(assets/images/crossfit.webp) no-repeat center center;
     float: left;
     background-color: black;
     margin-left: 5%;
 }
 
 #yoga {
-    background: url(../images/yoga.webp) no-repeat center center;
+    background: url(assets/images/yoga.webp) no-repeat center center;
     float: right;
     background-color: black;
     margin-right: 5%;
@@ -155,7 +155,7 @@ footer a:hover {
 
 #powerlifting {
     float: right;
-    background: url(../images/powerlifting.jpeg) no-repeat center center;
+    background: url(assets/images/powerlifting.jpeg) no-repeat center center;
     background-color: black;
     margin-right: 5%;
 
@@ -163,13 +163,13 @@ footer a:hover {
 
 #aerobics {
     float: left;
-    background: url(../images/aerobics.webp) no-repeat center center;
+    background: url(assets/images/aerobics.webp) no-repeat center center;
     background-color: black;
     margin-left: 5%;
 }
 
 #recovery {
-    background: url(../images/sauana.jpeg) no-repeat center center;
+    background: url(assets/images/sauana.jpeg) no-repeat center center;
     background-color: black;
     width: 60%;
     color: #fafafa;
@@ -196,7 +196,7 @@ footer a:hover {
 }
 
 #times div {
-    background: url(/assets/images/wall.jpeg);
+    background: url(assets/images/wall.jpeg);
     color: white;
     width: 25%;
     height: 200px;
@@ -215,7 +215,7 @@ footer a:hover {
 
 .form-section {
     clear: left;
-    background: url(/assets/images/formpic.jpeg);
+    background: url(assets/images/formpic.jpeg);
     background-size: cover;
     background-position: center;
     height: 900px;
