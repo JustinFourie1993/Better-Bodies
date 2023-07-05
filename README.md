@@ -27,4 +27,29 @@ The purposs of the website is mainly to attract people to this specific gym, and
   ![Picture of home page, showing a man exercixzing and some inspirational text](assets/images/home-page-image.png)
 
 - The footer
-  -
+
+  - The footer area provides contact information and links to social media platforms that the gym posts on. When clicked the link opens in a new tab.
+
+  - The footer is featured on every page and allows customers to get in touch and access content located outside of the website.
+
+  ![picture of footer with social media links](assets/images/footer.png)
+
+- Classes
+
+  - The classes section notifies users as to what kind of classes they can attend.
+
+  - Its important for users to be aware of all the optoins they have.
+
+  ![A picure of the available class choices](assets/images/classes.png)
+
+- Class Times
+  - The class times shows information about what times, and on what days the respectives classes take place.
+
+![A picture of the class times table](assets/images/class-times.png)
+
+- The signup form
+  - The signup form allows users to enrole themselves into various different classes. It is a digital gateway to their own fitness journey.
+
+![A picture of the signup form](assets/images/singnup-form.png)
+
+# Testing
