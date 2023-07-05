@@ -53,3 +53,25 @@ The purposs of the website is mainly to attract people to this specific gym, and
 ![A picture of the signup form](assets/readme-images/singnup-form.png)
 
 # Testing
+
+I have deployed the website through git-hub pages and tested it there. The wesite looks good visually, and keeps good structure when viewed on different screen sizes in dev tool. All internal links where tested and work. All external links were tested and open up in new pages. When first deploying the page, no css was being applied to the html due to miss-spelling in the css link. This was an easy fix. Also, when submitting the signup, it was naot opening in a new tab as i had forgotten the target="\_blank" attribute. It now opens in a new tab.
+
+## Validator testing
+
+- Css
+  - No errors were found when running code through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+
+- Html
+  - No errors were found when passing through the official [W3C validator
+](https://validator.w3.org/#validate_by_input)
+
+# Deployment
+
+- This site was deployed to GitHub pages in these steps.
+
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+- Here is a link to the deployed pag - [Better Bodies](https://justinfourie1993.github.io/Better-Bodies/)
+

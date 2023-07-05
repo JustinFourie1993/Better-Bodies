@@ -135,7 +135,7 @@ footer a:hover {
     width: 25%;
     text-align: center;
     margin: auto;
-    border: 1px solid rgba(0, 0, 0, 0.6);
+    border: 1px solid black;
     border-radius: 5px;
 }
 
