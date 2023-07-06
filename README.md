@@ -8,7 +8,7 @@ The purposs of the website is mainly to attract people to this specific gym, and
 
 # Features
 
-### Existing Features
+
 
 - Navigation Bar
 
@@ -59,19 +59,31 @@ I have deployed the website through git-hub pages and tested it there. The wesit
 ## Validator testing
 
 - Css
-  - No errors were found when running code through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+  - No errors were found when running code through the official  validator <a href="https://jigsaw.w3.org/css-validator/" target="_blank">(Jigsaw) validator</a>
 
 - Html
-  - No errors were found when passing through the official [W3C validator
-](https://validator.w3.org/#validate_by_input)
+  - No errors were found when passing through the official <a href="https://validator.w3.org/#validate_by_input" target="_blank">W3C validator</a>
 
 # Deployment
 
 - This site was deployed to GitHub pages in these steps.
 
   - In the GitHub repository, navigate to the Settings tab
+  - In the settings secttion click on the pages tab
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-- Here is a link to the deployed pag - [Better Bodies](https://justinfourie1993.github.io/Better-Bodies/)
+- Here is a link to the deployed pag - <a href="https://justinfourie1993.github.io/Better-Bodies" target="_blank">Better Bodies</a>
+
+# Credits 
+
+## Content
+
+- The main code structure for the signup form was taken from Code Institutes <a href="https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/" target="blank">signup form challenge</a>
+- Icons in the header and footer were taken from <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
+
+## Media
+
+- All pictures used throughout the website are taken from <a href="https://www.pexels.com/sv-se/" target="_blank">Pexels</a>
+
 
