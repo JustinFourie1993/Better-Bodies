@@ -2,7 +2,7 @@
 
 Better Bodies is the online presence and portal to the the Stockholm based gym called "Better Bodies". It is a website for for people who exercize, and more importantly for people who are looking to get into exercizing. Wether your are looking to push yourself to your limits, or just get your body moving, Better Bodies accommodates for all.
 
-The purposs of the website is mainly to attract people to this specific gym, and getting the customer motivated to begin their fitnees journey while simultaneously bringing more customers and profit to the gym itself.
+The purposs of the website is mainly to attract people to this specific gym, and getting the customer motivated to begin their fitness journey while simultaneously bringing more customers and profit to the gym itself.
 
 ![A mockup picture of the front page dispayed on different devices](assets/readme-images/mockup.png)
 
