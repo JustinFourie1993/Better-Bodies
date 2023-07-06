@@ -8,8 +8,6 @@ The purposs of the website is mainly to attract people to this specific gym, and
 
 # Features
 
-
-
 - Navigation Bar
 
   - Featured on all three pages, the navigation bar allows users to move effortlessly through the site with links to the home page, the classes and times page, and the signup form.
@@ -54,12 +52,13 @@ The purposs of the website is mainly to attract people to this specific gym, and
 
 # Testing
 
-I have deployed the website through git-hub pages and tested it there. The wesite looks good visually, and keeps good structure when viewed on different screen sizes in dev tool. All internal links where tested and work. All external links were tested and open up in new pages. When first deploying the page, no css was being applied to the html due to miss-spelling in the css link. This was an easy fix. Also, when submitting the signup, it was naot opening in a new tab as i had forgotten the target="\_blank" attribute. It now opens in a new tab.
+I have deployed the website through git-hub pages and tested it there. The wesite looks good visually, and keeps good structure when viewed on different screen sizes in dev tool. All internal links where tested and work. All external links were tested and open up in new pages. When first deploying the page, no css was being applied to the html due to miss-spelling in the css link. This was an easy fix. Also, when submitting the signup-form, it was not opening in a new tab as i had forgotten the target="\_blank" attribute. It now opens in a new tab.
 
 ## Validator testing
 
 - Css
-  - No errors were found when running code through the official  validator <a href="https://jigsaw.w3.org/css-validator/" target="_blank">(Jigsaw) validator</a>
+
+  - No errors were found when running code through the official validator <a href="https://jigsaw.w3.org/css-validator/" target="_blank">(Jigsaw) validator</a>
 
 - Html
   - No errors were found when passing through the official <a href="https://validator.w3.org/#validate_by_input" target="_blank">W3C validator</a>
@@ -69,13 +68,13 @@ I have deployed the website through git-hub pages and tested it there. The wesit
 - This site was deployed to GitHub pages in these steps.
 
   - In the GitHub repository, navigate to the Settings tab
-  - In the settings secttion click on the pages tab
+  - In the settings section click on the pages tab
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 - Here is a link to the deployed pag - <a href="https://justinfourie1993.github.io/Better-Bodies" target="_blank">Better Bodies</a>
 
-# Credits 
+# Credits
 
 ## Content
 
@@ -85,5 +84,3 @@ I have deployed the website through git-hub pages and tested it there. The wesit
 ## Media
 
 - All pictures used throughout the website are taken from <a href="https://www.pexels.com/sv-se/" target="_blank">Pexels</a>
-
-
