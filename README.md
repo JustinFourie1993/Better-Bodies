@@ -12,7 +12,7 @@ The purposs of the website is mainly to attract people to this specific gym, and
 
 - Navigation Bar
 
-  - Featured on all three pages, the navigation bar allows users to move effortlessly through the site with links t the home page, the classes and times page, and the signup form.
+  - Featured on all three pages, the navigation bar allows users to move effortlessly through the site with links to the home page, the classes and times page, and the signup form.
 
   - This feature will allow users to navigate through th website without having to return back to the previous page using the "back" button.
 
@@ -20,7 +20,7 @@ The purposs of the website is mainly to attract people to this specific gym, and
 
 - The home page image
 
-  - The home page lands you on an image of a gym goer with some bold text.
+  - The home page lands you on an image of an athlete with some bold text.
 
   - It is meant to motivate people, and get them inspired to workout.
 
@@ -43,7 +43,7 @@ The purposs of the website is mainly to attract people to this specific gym, and
   ![A picure of the available class choices](assets/readme-images/classes.png)
 
 - Class Times
-  - The class times shows information about what times, and on what days the respectives classes take place.
+  - The class times shows information about what times, and on what days the respective classes take place.
 
 ![A picture of the class times table](assets/readme-images/class-times.png)
 
